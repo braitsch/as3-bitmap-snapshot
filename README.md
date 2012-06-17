@@ -19,6 +19,4 @@ var img:BitmapSnapshot = new BitmapSnapshot(displayObject, filename);
 ```
 [Live Demo & More Information Here.](http://www.quietless.com/kitchen/dynamically-create-an-image-in-flash-and-save-it-to-the-desktop-or-server/)
 
-This repository contains the full source for the demo on my website.
-
-[The actual BitmapSnaphot class is located here.](http://github.com/braitsch/as3-bitmap-snapshot/blob/master/libs/com/quietless/bitmap/BitmapSnapshot.as)
+This repository contains the full source for the demo on my website, [the actual BitmapSnaphot class is located here.](http://github.com/braitsch/as3-bitmap-snapshot/blob/master/libs/com/quietless/bitmap/BitmapSnapshot.as)
