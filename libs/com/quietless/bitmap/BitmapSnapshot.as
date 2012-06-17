@@ -22,7 +22,7 @@ package com.quietless.bitmap {
 	import flash.net.URLRequestHeader;
 	import flash.net.URLRequestMethod;
 	import flash.utils.ByteArray;
-}
+
 	public class BitmapSnapshot extends EventDispatcher {
 		
 		public var debug		:Boolean = true;	// trace to the output console //
