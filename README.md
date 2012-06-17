@@ -1,7 +1,7 @@
 ##[AS3 Bitmap Snapshot](http://www.quietless.com/kitchen/dynamically-create-an-image-in-flash-and-save-it-to-the-desktop-or-server/)
 
 ####A simple utility class to draw any DisplayObject to an .png or .jpg
-##Also includes a sample php script that you can use to uplaod and save it to a server.
+Also includes a sample php script that you can use to upload and save it to a server.
 
 Example Usage
 ***
