@@ -11,6 +11,7 @@ package com.quietless.bitmap {
 	import com.adobe.images.*;
 	import flash.display.BitmapData;
 	import flash.display.DisplayObject;
+	import flash.events.DataEvent;
 	import flash.events.Event;
 	import flash.events.EventDispatcher;
 	import flash.events.IOErrorEvent;
@@ -74,6 +75,11 @@ package com.quietless.bitmap {
 
 		private function onRequestComplete(e:Event):void
 		{
+			var loader:URLLoader = e.target as URLLoader;
+			var event:DataEvent = new DataEvent(DataEvent.DATA);
+			event.data = loader.data;
+			this.dispatchEvent(event);
+            
 			log('Upload of '+_name+' was successful');
 		}	
 		
