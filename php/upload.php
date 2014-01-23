@@ -10,6 +10,7 @@ if (isset($GLOBALS["HTTP_RAW_POST_DATA"]))
 	$fp = fopen($dir.'/'.$_GET['filename'], "wb" );
 	fwrite( $fp, $GLOBALS[ 'HTTP_RAW_POST_DATA' ] );
 	fclose( $fp );	
+    echo('ok'); // print any informations clients needed, something like uploaded image url for preview.
 }	else{
 	echo('file data not received');
 }
